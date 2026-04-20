@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-//@DiscriminatorColumn(name = "vehicle_type")
+@DiscriminatorColumn(name = "vehicle_type")
 public abstract class Vehicle {
 
     @Id
